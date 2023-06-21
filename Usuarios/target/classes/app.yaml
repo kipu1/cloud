@@ -1,0 +1,28 @@
+cloud:
+  
+    region:
+      static: us
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: bucketcloudortizz
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 20MB
+      max-request-size: 50MB
+
+server:
+  port: 9099
+
+
+
+
+
+
